@@ -1,9 +1,16 @@
 import speech_recognition as sr
+from VoiceComands.CommandList import CommandList
 import pyttsx3
 from gtts import gTTS
 
 
 r = sr.Recognizer()
+def dispatchCommnad(text):
+
+    for cmd in CommandList:
+        if(text in cmd.invokeList):
+            print("EXECUTING COMMAND")
+            cmd.executeCmd()
 
 while(1):
 
@@ -18,6 +25,8 @@ while(1):
             MyText = MyText.lower()
 
             print("Dijiste: "+ MyText)
+            dispatchCommnad(MyText)
+
 
 
     except sr.RequestError as e:
@@ -25,3 +34,4 @@ while(1):
 
     except sr.UnknownValueError:
         print("unknown error occured")
+

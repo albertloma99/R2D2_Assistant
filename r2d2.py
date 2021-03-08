@@ -156,6 +156,13 @@ def playSoundCry():
     #os.system("cvlc --volume-step 256 {0} vlc://quit".format(name))
     print('returncode:', activeProc.returncode)
     turnOffAll()
+
+def playSound(filename):
+    global activeProc
+    activeProc = subprocess.Popen(["cvlc", ":gain-value=1", filename, "vlc://quit"])
+    # os.system("cvlc --volume-step 256 {0} vlc://quit".format(name))
+    print('returncode:', activeProc.returncode)
+    turnOffAll()
     
 def stopSound():
     activeProc.terminate()
