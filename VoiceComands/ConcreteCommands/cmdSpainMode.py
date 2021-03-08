@@ -1,8 +1,12 @@
-import r2d2
+#import r2d2
 
 class cmdSpainMode(object):
 
     invokeList = ["arriba españa"]
 
+    def __init__(self):
+        pass
+
     def executeCmd(self):
-        r2d2.playSound("Sounds\Himno de España.mp3")
+        print("playing el himnito de españita")
+        #r2d2.playSound("Sounds\Himno de España.mp3")

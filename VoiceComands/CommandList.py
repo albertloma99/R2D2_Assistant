@@ -1,5 +1,5 @@
-import VoiceComands.ConcreteCommands.cmdSpainMode
+from VoiceComands.ConcreteCommands.cmdSpainMode import cmdSpainMode
 
 CommandList = [
-    VoiceComands.cmdSpainMode,
+    cmdSpainMode(),
 ]
