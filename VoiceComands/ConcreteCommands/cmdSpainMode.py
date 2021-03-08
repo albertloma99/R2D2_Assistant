@@ -1,4 +1,4 @@
-#import r2d2
+import r2d2
 
 class cmdSpainMode(object):
 
@@ -9,4 +9,4 @@ class cmdSpainMode(object):
 
     def executeCmd(self):
         print("playing el himnito de españita")
-        #r2d2.playSound("Sounds\Himno de España.mp3")
+        r2d2.playSound('Sounds/HimnodeEspana.wav')

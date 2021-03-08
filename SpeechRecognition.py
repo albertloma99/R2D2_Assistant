@@ -2,6 +2,7 @@ import speech_recognition as sr
 from VoiceComands.CommandList import CommandList
 import pyttsx3
 from gtts import gTTS
+import r2d2
 
 
 r = sr.Recognizer()
@@ -12,11 +13,12 @@ def dispatchCommnad(text):
             print("EXECUTING COMMAND")
             cmd.executeCmd()
 
+r2d2.main()
 while(1):
 
     try:
         print(sr.Microphone.list_microphone_names())
-        with sr.Microphone(device_index= 4) as source2:
+        with sr.Microphone(device_index= 2) as source2:
 
             r.adjust_for_ambient_noise(source2, duration=1.5)
 
