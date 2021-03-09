@@ -1,4 +1,5 @@
 from flask import Flask, escape, request
+from VoiceComands.CommandList import CommandList
 
 app = Flask(__name__)
 
@@ -6,6 +7,14 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     command = request.args.get('command')
+    dispatchCommnad(command)
     return 'Requested Command: '+command
+
+def dispatchCommnad(text):
+
+    for cmd in CommandList:
+        if(text in cmd.invokeList):
+            print("EXECUTING COMMAND")
+            cmd.executeCmd()
 
 Flask.run(app,port=6969, host='0.0.0.0')
