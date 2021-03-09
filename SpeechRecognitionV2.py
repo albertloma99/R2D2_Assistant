@@ -9,6 +9,7 @@ speech = sr.Microphone(device_index=4)
 with speech as source:
     audio = r.adjust_for_ambient_noise(source)
     audio = r.listen(source)
+    r.energy_threshold = 4000
 try:
     recog = r.recognize_google(audio, language = 'es-ES')
     print("You said: " + recog)
