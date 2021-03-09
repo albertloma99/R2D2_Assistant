@@ -2,7 +2,7 @@ import r2d2
 
 class cmdStopSound(object):
 
-    invokeList = ["para la musica", "para el sonido"]
+    invokeList = ["para la música", "para el sonido","para"]
 
     def __init__(self):
         pass

@@ -2,7 +2,7 @@ import r2d2
 
 class cmdSpainMode(object):
 
-    invokeList = ["arriba españa"]
+    invokeList = ["arriba españa", "españa", "franco"]
 
     def __init__(self):
         pass

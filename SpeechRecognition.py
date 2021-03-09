@@ -17,7 +17,7 @@ r2d2.main()
 while(1):
 
     try:
-        print(sr.Microphone.list_microphone_names())
+        #print(sr.Microphone.list_microphone_names())
         with sr.Microphone(device_index= 2) as source2:
 
             r.adjust_for_ambient_noise(source2, duration=1.5)
