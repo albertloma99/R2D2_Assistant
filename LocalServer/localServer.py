@@ -8,4 +8,4 @@ def hello():
     command = request.args.get('command')
     return 'Requested Command: '+command
 
-Flask.run(app,port=6969)
+Flask.run(app,port=6969, host='0.0.0.0')
