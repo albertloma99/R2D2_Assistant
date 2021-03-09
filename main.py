@@ -50,14 +50,14 @@ def voice_handler(update, context):
     r2d2.turnLed("red")
     r2d2.turnLed("blue")
     file.download("./sound.wav")
-    r2d2.playSound()
+    r2d2.playSound("sound.wav")
     
 def audio_handler(update, context):
     file = context.bot.getFile(update.message.audio.file_id)
     r2d2.turnLed("red")
     r2d2.turnLed("blue")
     file.download("./sound.wav")
-    r2d2.playSound()
+    r2d2.playSound("sound.wav")
     
 def help_command(update, context):
     """Send a message when the command /help is issued."""

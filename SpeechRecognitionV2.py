@@ -5,10 +5,11 @@ engine = pyttsx3.init()
 engine.setProperty('rate', 200)
 engine.setProperty('volume', 0.9)
 r = sr.Recognizer()
-speech = sr.Microphone(device_index=4)
+speech = sr.Microphone(device_index=2)
 with speech as source:
     audio = r.adjust_for_ambient_noise(source)
     audio = r.listen(source)
+    r.energy_threshold = 150
 try:
     recog = r.recognize_google(audio, language = 'es-ES')
     print("You said: " + recog)
