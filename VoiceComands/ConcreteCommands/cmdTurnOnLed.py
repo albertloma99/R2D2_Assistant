@@ -18,6 +18,7 @@ class cmdTurnOnLed(object):
 
     def getColorFromText(self, text):
         for color in self.ledDict.keys():
+            print(color)
             if(color in text):
                 return self.ledDict[color]
                 break
