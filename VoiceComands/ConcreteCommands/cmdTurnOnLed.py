@@ -3,7 +3,7 @@ import r2d2
 class cmdTurnOnLed(object):
     ledDict = {
                   "azul":"blue",
-                  "red":"rojo",
+                  "rojo":"red",
                   "verde":"green",
                   "superior":"blueup",
     }
@@ -14,10 +14,13 @@ class cmdTurnOnLed(object):
 
     def executeCmd(self, *args):
         print('TEXTO DE VOZ: '+ args[0])
+        print(str(self.getColorFromText(str(args[0]))))
         r2d2.turnLed(str(self.getColorFromText(str(args[0]))))
+        r2d2.saySimple("okey")
 
     def getColorFromText(self, text):
         for color in self.ledDict.keys():
+            print(color)
             if(color in text):
                 return self.ledDict[color]
                 break

@@ -106,6 +106,13 @@ def say(message):
         turnLed("blueup")
         time.sleep(0.7)
     turnOffAll()
+
+def saySimple(message):
+    filename = "r2d2.wav"
+    generate_r2d2_message(filename, message)
+    pygame.mixer.init()
+    pygame.mixer.music.load(filename)
+    pygame.mixer.music.play()
     
 def turnOffLed(led):
     if led.lower() == "blue":
