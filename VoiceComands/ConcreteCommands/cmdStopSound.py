@@ -7,5 +7,5 @@ class cmdStopSound(object):
     def __init__(self):
         pass
 
-    def executeCmd(self):
+    def executeCmd(self, *args):
         r2d2.stopSound()

@@ -1,33 +1,24 @@
+import requests
 import speech_recognition as sr
-from VoiceComands.CommandList import CommandList
-import pyttsx3
-from gtts import gTTS
-import r2d2
 
+remoteIP = 'http://192.168.2.116:6969'
 
 r = sr.Recognizer()
-def dispatchCommnad(text):
-
-    for cmd in CommandList:
-        if(text in cmd.invokeList):
-            print("EXECUTING COMMAND")
-            cmd.executeCmd()
-
-r2d2.main()
-while(1):
-
+while True:
     try:
         #print(sr.Microphone.list_microphone_names())
-        with sr.Microphone(device_index= 2) as source2:
-
-            r.adjust_for_ambient_noise(source2, duration=1.5)
+        with sr.Microphone(device_index= 4) as source2:
+            print('Listening...')
+            #r.adjust_for_ambient_noise(source2)
 
             audio = r.listen(source2)
+            r.pause_threshold = 1
             MyText = r.recognize_google(audio, language="es-ES")
             MyText = MyText.lower()
+            print(MyText)
+            payload = {'command':str(MyText)}
+            requests.get(remoteIP, params=payload)
 
-            print("Dijiste: "+ MyText)
-            dispatchCommnad(MyText)
 
 
 
@@ -36,4 +27,3 @@ while(1):
 
     except sr.UnknownValueError:
         print("unknown error occured")
-
