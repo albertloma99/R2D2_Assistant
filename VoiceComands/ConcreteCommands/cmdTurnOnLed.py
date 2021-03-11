@@ -14,7 +14,7 @@ class cmdTurnOnLed(object):
 
     def executeCmd(self, *args):
         print('TEXTO DE VOZ: '+ args[0])
-        r2d2.turnLed(self.getColorFromText(args[0]))
+        r2d2.turnLed(str(self.getColorFromText(str(args[0]))))
 
     def getColorFromText(self, text):
         for color in self.ledDict.keys():
