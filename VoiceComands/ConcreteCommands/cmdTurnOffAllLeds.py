@@ -9,3 +9,4 @@ class cmdTurnOffAllLeds(object):
 
     def executeCmd(self, *args):
         r2d2.turnOffAll()
+        r2d2.saySimple("recibido")
