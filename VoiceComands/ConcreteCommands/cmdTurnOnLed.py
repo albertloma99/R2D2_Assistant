@@ -8,4 +8,5 @@ class cmdTurnOnLed(object):
         pass
 
     def executeCmd(self, *args):
-        r2d2.turnLed("blue")
+        print('TEXTO DE VOZ: '+ args[0])
+        r2d2.turnLed('blue')

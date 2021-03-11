@@ -15,6 +15,6 @@ def dispatchCommnad(text):
     for cmd in CommandList:
         if(text in cmd.invokeList):
             print("EXECUTING COMMAND")
-            cmd.executeCmd()
+            cmd.executeCmd(text)
 
 Flask.run(app,port=6969, host='0.0.0.0')
