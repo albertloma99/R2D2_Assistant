@@ -14,7 +14,7 @@ def dispatchCommnad(text):
 
     for cmd in CommandList:
         for textInvoke in cmd.invokeList:
-            if(text in textInvoke):
+            if(textInvoke in text):
                 print("EXECUTING COMMAND")
                 cmd.executeCmd(text)
 
