@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd29d4f-1a21-49d9-8688-dbf8d1e2abf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdAmbientMusic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdSingSomething.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VoiceComands/CommandList.py" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceComands/CommandList.py" afterDir="false" />
     </list>
@@ -178,7 +178,7 @@
       <workItem from="1615236370572" duration="6231000" />
       <workItem from="1615287869724" duration="11413000" />
       <workItem from="1615478432738" duration="9111000" />
-      <workItem from="1615557759148" duration="9785000" />
+      <workItem from="1615557759148" duration="10036000" />
     </task>
     <task id="LOCAL-00001" summary="xddddddd">
       <created>1615239306640</created>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615575012408</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="amos">
+      <created>1615575302582</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615575302582</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,11 +366,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="203" key="#r2d2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615239489828" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615575012061">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615575302283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1335" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300803565" />
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615575012061" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615575302283" />
     <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1615574556338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -409,11 +416,11 @@
     </state>
     <state x="-1306" y="146" key="SettingsEditor/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615292588189" />
     <state x="441" y="330" key="SettingsEditor/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615572679292" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615575016920">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615575306407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300808975" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615575016920" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615575306407" />
     <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615491360662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
