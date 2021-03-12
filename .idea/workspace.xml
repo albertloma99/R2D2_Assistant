@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd29d4f-1a21-49d9-8688-dbf8d1e2abf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/R2_DesktopApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sounds/GeneralKenobi.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdHelloThere.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VoiceComands/CommandList.py" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceComands/CommandList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdSalutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdSalutation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,29 @@
       <recent name="C:\Users\Albert Loma\PycharmProjects\R2D2_PersonalAssistant" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SpeechRecognitionV3">
+  <component name="RunManager" selected="Python.R2_DesktopApp">
+    <configuration name="R2_DesktopApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="R2D2_Assistant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/R2_DesktopApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SpeechRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="R2D2_Assistant" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,35 +158,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="r2d2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="R2D2_PersonalAssistant" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/r2d2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.R2_DesktopApp" />
         <item itemvalue="Python.SpeechRecognitionV3" />
         <item itemvalue="Python.SpeechRecognition" />
         <item itemvalue="Python.localServer" />
         <item itemvalue="Python.SpeechRecognitionV2" />
-        <item itemvalue="Python.r2d2" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +182,7 @@
       <workItem from="1615236370572" duration="6231000" />
       <workItem from="1615287869724" duration="11413000" />
       <workItem from="1615478432738" duration="9111000" />
-      <workItem from="1615557759148" duration="3563000" />
+      <workItem from="1615557759148" duration="8908000" />
     </task>
     <task id="LOCAL-00001" summary="xddddddd">
       <created>1615239306640</created>
@@ -291,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615565561478</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="amos a darle bro xd">
+      <created>1615565671535</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615565671535</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +323,8 @@
     <MESSAGE value="patata xdxd amos ledss" />
     <MESSAGE value="amos a darle" />
     <MESSAGE value="amos a darle bro" />
-    <option name="LAST_COMMIT_MESSAGE" value="amos a darle bro" />
+    <MESSAGE value="amos a darle bro xd" />
+    <option name="LAST_COMMIT_MESSAGE" value="amos a darle bro xd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615492598643">
@@ -326,61 +339,61 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="203" key="#r2d2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615239489828" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615565561098">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615565671214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1335" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300803565" />
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615565561098" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1615560616003">
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615565671214" />
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1615573826439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300862019" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615560616003" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1615560616003">
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615573826439" />
+    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1615573826438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300862019" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615560616003" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1615560616002">
+    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615573826438" />
+    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1615573826438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300862019" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615560616002" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1615560616003">
+    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615573826438" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1615573826439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300862019" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615560616003" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1615486348387">
+    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615573826439" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1615571736984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615486348387" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1615486348387">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615571736984" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1615571736984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615486348387" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1615486348387">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615571736984" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1615571736984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615486348387" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1615486348387">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615571736984" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1615571736984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615486348387" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615571736984" />
     <state x="184" y="86" key="MergeDialog" timestamp="1615241652088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="MergeDialog/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615241652088" />
-    <state x="441" y="330" key="SettingsEditor" timestamp="1615479488993">
+    <state x="441" y="330" key="SettingsEditor" timestamp="1615572679292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1306" y="146" key="SettingsEditor/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615292588189" />
-    <state x="441" y="330" key="SettingsEditor/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615479488993" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615565565487">
+    <state x="441" y="330" key="SettingsEditor/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615572679292" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615565675320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300808975" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615565565487" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615565675320" />
     <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615491360662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -392,8 +405,9 @@
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615491645227" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/R2D2_Assistant$R2_DesktopApp.coverage" NAME="R2_DesktopApp Coverage Results" MODIFIED="1615574428774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/R2D2_Assistant$SpeechRecognition.coverage" NAME="SpeechRecognition Coverage Results" MODIFIED="1615389917477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/R2D2_Assistant$SpeechRecognitionV3.coverage" NAME="SpeechRecognitionV3 Coverage Results" MODIFIED="1615560615984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/R2D2_Assistant$SpeechRecognitionV3.coverage" NAME="SpeechRecognitionV3 Coverage Results" MODIFIED="1615565698848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/R2D2_Assistant$SpeechRecognitionV2.coverage" NAME="SpeechRecognitionV2 Coverage Results" MODIFIED="1615296067569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/R2D2_PersonalAssistant$main.coverage" NAME="main Coverage Results" MODIFIED="1613507067380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/R2D2_PersonalAssistant$r2d2.coverage" NAME="r2d2 Coverage Results" MODIFIED="1613582438985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

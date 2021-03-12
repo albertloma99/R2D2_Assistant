@@ -16,5 +16,4 @@ CommandList = [
     cmdTurnEngines(),
     cmdSalutation(),
     cmdInsult(),
-
 ]
