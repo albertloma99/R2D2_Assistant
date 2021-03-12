@@ -7,6 +7,7 @@ from VoiceComands.ConcreteCommands.cmdTurnEngines import cmdTurnEngines
 from VoiceComands.ConcreteCommands.cmdSalutation import cmdSalutation
 from VoiceComands.ConcreteCommands.cmdInsult import cmdInsult
 from VoiceComands.ConcreteCommands.cmdHelloThere import cmdHelloThere
+from VoiceComands.ConcreteCommands.cmdAmbientMusic import cmdAmbientMusic
 
 CommandList = [
     cmdSpainMode(),
@@ -18,4 +19,5 @@ CommandList = [
     cmdSalutation(),
     cmdInsult(),
     cmdHelloThere(),
+    cmdAmbientMusic(),
 ]
