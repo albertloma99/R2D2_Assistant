@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edd29d4f-1a21-49d9-8688-dbf8d1e2abf4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdInsult.py" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdInsult.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdSalutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdSalutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoiceComands/CommandList.py" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceComands/CommandList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdHelloThere.py" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceComands/ConcreteCommands/cmdHelloThere.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +178,7 @@
       <workItem from="1615236370572" duration="6231000" />
       <workItem from="1615287869724" duration="11413000" />
       <workItem from="1615478432738" duration="9111000" />
-      <workItem from="1615557759148" duration="8941000" />
+      <workItem from="1615557759148" duration="9494000" />
     </task>
     <task id="LOCAL-00001" summary="xddddddd">
       <created>1615239306640</created>
@@ -305,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615574438906</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="amos a darle bro xd xdddddddddd d">
+      <created>1615574461236</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615574461236</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +335,8 @@
     <MESSAGE value="amos a darle bro" />
     <MESSAGE value="amos a darle bro xd" />
     <MESSAGE value="amos a darle bro xd xdddddddddd" />
-    <option name="LAST_COMMIT_MESSAGE" value="amos a darle bro xd xdddddddddd" />
+    <MESSAGE value="amos a darle bro xd xdddddddddd d" />
+    <option name="LAST_COMMIT_MESSAGE" value="amos a darle bro xd xdddddddddd d" />
   </component>
   <component name="WindowStateProjectService">
     <state x="716" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615492598643">
@@ -342,31 +351,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="203" key="#r2d2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615239489828" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615574438517">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615574460889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1335" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300803565" />
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574438517" />
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1615574428781">
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574460889" />
+    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1615574556338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300862019" />
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574428781" />
-    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1615574428781">
+    <state width="1877" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574556338" />
+    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1615574556338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300862019" />
-    <state width="1877" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574428781" />
-    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1615574428780">
+    <state width="1877" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574556338" />
+    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1615574556338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300862019" />
-    <state width="1877" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574428780" />
-    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1615574428781">
+    <state width="1877" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574556338" />
+    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1615574556338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300862019" />
-    <state width="1877" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574428781" />
+    <state width="1877" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574556338" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1615571736984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -392,11 +401,11 @@
     </state>
     <state x="-1306" y="146" key="SettingsEditor/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615292588189" />
     <state x="441" y="330" key="SettingsEditor/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615572679292" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615565675320">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615574464888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1615300808975" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615565675320" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615574464888" />
     <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615491360662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -408,7 +417,7 @@
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-263.1080.1880/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615491645227" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/R2D2_Assistant$R2_DesktopApp.coverage" NAME="R2_DesktopApp Coverage Results" MODIFIED="1615574428774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/R2D2_Assistant$R2_DesktopApp.coverage" NAME="R2_DesktopApp Coverage Results" MODIFIED="1615574556333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/R2D2_Assistant$SpeechRecognition.coverage" NAME="SpeechRecognition Coverage Results" MODIFIED="1615389917477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/R2D2_Assistant$SpeechRecognitionV3.coverage" NAME="SpeechRecognitionV3 Coverage Results" MODIFIED="1615565698848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/R2D2_Assistant$SpeechRecognitionV2.coverage" NAME="SpeechRecognitionV2 Coverage Results" MODIFIED="1615296067569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

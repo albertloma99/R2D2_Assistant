@@ -1,7 +1,7 @@
 import r2d2
 
 
-class cmdInsult(object):
+class cmdHelloThere(object):
 
     invokeList = ["hello there","hellouda"]
 
