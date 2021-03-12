@@ -8,4 +8,4 @@ class cmdSalutation(object):
         pass
 
     def executeCmd(self, *args):
-        r2d2.playSound("Sound/Happy Confirmation.wav")
+        r2d2.playSound("Sounds/Happy Confirmation.wav")

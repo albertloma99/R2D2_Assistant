@@ -9,5 +9,5 @@ class cmdInsult(object):
         pass
 
     def executeCmd(self, *args):
-        randomSound = random.choice(["Sound/Upset TwoTone.wav","Sound/Abrupt Burst.wav"])
+        randomSound = random.choice(["Sounds/Upset TwoTone.wav","Sounds/Abrupt Burst.wav"])
         r2d2.playSound(randomSound)
